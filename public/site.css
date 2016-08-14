@@ -1,0 +1,56 @@
+section {
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.tab-link {
+    color:red;
+}
+
+.nav-tabs a.nav-link:hover {
+    color: red;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: whitesmoke;
+}
+
+.nav-tabs .nav-link.active:hover {
+    color: red;
+    background-color: whitesmoke;
+}
+
+.my-tab-header {
+    background-color: lightblue;
+}
+
+.my-active-tab-header {
+    background-color: cornflowerblue;
+}
+
+.tab-content-default {
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.my-tab-content {
+    height: 50px;
+    background-color: green;
+}
+
+.tab-container-with-border {
+    border: 1px dashed navy;
+    height:30px;
+}
