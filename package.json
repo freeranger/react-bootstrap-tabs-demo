@@ -24,7 +24,7 @@
     "jquery": "^3.1.0",
     "normalize.css": "^4.0.0",
     "react": "~15.3.0",
-    "react-bootstrap-tabs": "file:../react-bootstrap-tabs/react-bootstrap-tabs-0.0.1.tgz",
+    "react-bootstrap-tabs": "0.0.1",
     "react-dom": "~15.3.0"
   },
   "devDependencies": {
