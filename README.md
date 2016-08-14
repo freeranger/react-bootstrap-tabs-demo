@@ -1,15 +1,5 @@
-## react-s-alert demo website
+## react-bootstrap-tabs demo website
 
-This is a demo website for [react-s-alert](https://github.com/juliancwirko/react-s-alert) component.
+This is a demo website for the [react-bootstrap-tabs]((https://github.com/freeranger/react-bootstrap-tabs-demo) component.
 
-You can see it live here: [react-s-alert.jsdemo.be](http://react-s-alert.jsdemo.be/)
-
-(Demo created with [react-boilerplate](https://github.com/juliancwirko/react-boilerplate))
-
-
-### Development
-
-- clone the repo
-- run `npm install`
-- run `npm start` - dev server
-- run `npm run dist` - build for production
+You can see it live here: [react-bootstrap-tabs-demo](https://freeranger.github.io/react-bootstrap-tabs-demo)
