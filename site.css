@@ -36,7 +36,7 @@ h5 {
     background-color: lightblue;
 }
 
-.my-active-tab-header {
+.nav-tabs a.my-active-tab-header.active, .nav-tabs a.my-active-tab-header.active:hover {
     background-color: cornflowerblue;
 }
 
@@ -53,4 +53,24 @@ h5 {
 .tab-container-with-border {
     border: 1px dashed navy;
     height:30px;
+}
+
+.tab-container-with-green-border {
+    border: 2px solid green;
+}
+
+.tab-header-bold {
+    font-weight: bold;
+}
+
+.nav-tabs a.tab-header-blue.active {
+    color: blue;
+}
+
+.tab-content-yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.tab-content-green {
+    color: green;
 }
