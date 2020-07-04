@@ -4,6 +4,7 @@ var webpack = require('webpack');
 require('es6-promise').polyfill();
 
 module.exports = {
+    mode: 'development',
     entry: [
         'webpack-dev-server/client?http://localhost:3000',
         'webpack/hot/only-dev-server',
@@ -18,11 +19,11 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin()
     ],
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /(node_modules|bower_components)/,
-                loaders: ['react-hot', 'babel']
+                loaders: ['react-hot-loader/webpack', 'babel-loader']
             },
             {
                 test: /\.css$/,
@@ -42,7 +43,7 @@ module.exports = {
         ]
     },
     resolve: {
-        root: path.join(__dirname, '..', 'app'),
-        extensions: ['', '.js', '.jsx', '.json', '.css']
+        modules: [__dirname, '..', 'app', 'node_modules'],
+        extensions: ['.js', '.jsx', '.json', '.css']
     }
 };

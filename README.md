@@ -5,9 +5,9 @@ This is a demo website for the [react-bootstrap-tabs](https://github.com/freeran
 You can see it live here: [react-bootstrap-tabs-demo](https://freeranger.github.io/react-bootstrap-tabs-demo)
 
 ### To run locally, 
-1. install the packages:
+1. install the dependencies:
 ```
-npm install react-bootstrap-tabs --save
+npm install
 ```
 
 2. Start the app
